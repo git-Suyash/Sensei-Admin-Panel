@@ -1,3 +1,4 @@
+import AddSubject from "@/components/AddSubject";
 import NotFound from "@/components/NotFound";
 import SubjectCard from "@/components/SubjectCard";
 import SubmoduleTopBar from "@/components/SubmoduleTopBar";
@@ -38,7 +39,8 @@ export default function Home() {
     <>
     <SubmoduleTopBar moduleTitle="Subjects" />
     <div className="m-4">
-    <SubjectCard subjects = { Subjects }  />
+    {/* <SubjectCard subjects = { Subjects }  /> */}
+    <AddSubject />
     </div>
     {/* < NotFound moduleTitle="Modules" /> */}
     </>
